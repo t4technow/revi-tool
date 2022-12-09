@@ -1,0 +1,2 @@
+Running files from the bin folder will not have any effect due to restricted permissions as they require TrustedInstaller for modifying, instead use Start.bat from %userprofile%\Documents\Workspace\Revision-Tool. It calls NSudo to run selected batch files with 
+the TrustedInstaller permission.
