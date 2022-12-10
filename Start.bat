@@ -666,6 +666,9 @@ if %fetDwordStatus%==0x2 (
 pause
 goto :Win11
 
+:Quit
+exit
+
 :IsAdmin
 reg query "HKU\S-1-5-19\Environment" >NUL
 if not %errorlevel% equ 0 (
